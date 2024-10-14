@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cnQcT2zrRuND3/wJe4BslBoMuEmZkqWXYXST7o0H59U=",
+  "Source": "jejames.api.ApiFactura",
+  "BasePath": "_content/jejames.api.ApiFactura",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

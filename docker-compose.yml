@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  apifactura:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5011:80"      # Mapea el puerto 80 del contenedor al puerto 5011 de tu máquina host
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - Jwt__Key=P@ssw0rdC0ntr@sen@jej@mes
+      - Jwt__Issuer=TuIssuer
+      - Jwt__Audience=TuAudience
+      - Jwt__ExpiryMinutes=60

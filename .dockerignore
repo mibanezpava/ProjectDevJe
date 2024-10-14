@@ -1,0 +1,5 @@
+Properties/launchSettings.json
+.git
+.gitignore
+bin/
+obj/

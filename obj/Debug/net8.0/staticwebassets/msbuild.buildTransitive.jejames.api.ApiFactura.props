@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\jejames.api.ApiFactura.props" />
+</Project>
